@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Apr 14 03:14:27 2025
+# Process ID: 1832
+# Current directory: C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23100 C:\Users\alamg\Dropbox\PC\Downloads\Telegram Desktop\integrated_single_board_trijal_final_pls_test_wayne.xpr\integrated_single_board\integrated_single_board.xpr
+# Log file: C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/vivado.log
+# Journal file: C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/integrated_single_board.xpr}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/slave_receive_hp_sp.v} w ]
+add_files {{C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/slave_receive_hp_sp.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/spi_slave.v} w ]
+add_files {{C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/spi_slave.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/HP_SP_status_screen_SPI.v} w ]
+add_files {{C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/HP_SP_status_screen_SPI.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/spi_master.v} w ]
+add_files {{C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/spi_master.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/SCLK_generator.v} w ]
+add_files {{C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/SCLK_generator.v}}
+update_compile_order -fileset sources_1
+archive_project {C:/Users/alamg/OneDrive - National University of Singapore/Desktop/Semesters/Y3S2/EE2026/Lab/S2_13_DINESH VALAVAN_SADIK MOHAMMAD_SRIMAL TRIJAL_WAYNE NEW_Improvements_Archive.xpr.zip} -temp_dir {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN} -force -include_local_ip_cache -include_config_settings
+archive_project {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/S2_13_DINESH VALAVAN_SADIK MOHAMMAD_SRIMAL TRIJAL_WAYNE NEW_Improvements_Archive.xpr.zip} -temp_dir {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN} -force -include_local_ip_cache -include_config_settings
+archive_project {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board_FINAL.xpr.zip} -temp_dir {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN} -force -include_local_ip_cache -include_config_settings
+archive_project {C:/Users/alamg/OneDrive - National University of Singapore/Desktop/integrated_single_board.xpr.zip} -temp_dir {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN} -force -include_local_ip_cache -include_config_settings
+archive_project {C:/Users/alamg/OneDrive - National University of Singapore/Desktop/integrated_single_board.xpr.zip} -temp_dir {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN} -force -include_local_ip_cache -include_config_settings
+archive_project {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board.xpr.zip} -temp_dir {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN} -force -include_local_ip_cache -include_config_settings
+archive_project {C:/Users/alamg/OneDrive - National University of Singapore/Desktop/integrated_single_board.xpr.zip} -temp_dir {C:/Users/alamg/OneDrive - National University of Singapore/Desktop} -force -include_local_ip_cache -include_config_settings

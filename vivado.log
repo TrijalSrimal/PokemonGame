@@ -1,0 +1,136 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Apr 14 03:14:27 2025
+# Process ID: 1832
+# Current directory: C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23100 C:\Users\alamg\Dropbox\PC\Downloads\Telegram Desktop\integrated_single_board_trijal_final_pls_test_wayne.xpr\integrated_single_board\integrated_single_board.xpr
+# Log file: C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/vivado.log
+# Journal file: C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/integrated_single_board.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board'
+INFO: [Project 1-313] Project file moved from 'C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/.Xil/Vivado-26192-DESKTOP-ETGLHQT/PrjAr/_X_' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 948.777 ; gain = 174.172
+update_compile_order -fileset sources_1
+close [ open {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/slave_receive_hp_sp.v} w ]
+add_files {{C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/slave_receive_hp_sp.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/spi_slave.v} w ]
+add_files {{C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/spi_slave.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/HP_SP_status_screen_SPI.v} w ]
+add_files {{C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/HP_SP_status_screen_SPI.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/spi_master.v} w ]
+add_files {{C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/spi_master.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/SCLK_generator.v} w ]
+add_files {{C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/SCLK_generator.v}}
+update_compile_order -fileset sources_1
+archive_project {C:/Users/alamg/OneDrive - National University of Singapore/Desktop/Semesters/Y3S2/EE2026/Lab/S2_13_DINESH VALAVAN_SADIK MOHAMMAD_SRIMAL TRIJAL_WAYNE NEW_Improvements_Archive.xpr.zip} -temp_dir {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN} -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN' for archiving project
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board'
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN/PrjAr/_X_'.
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN/PrjAr/_X_/integrated_single_board.srcs/sources_1/imports/integrated_single_board/archive_project_summary.txt
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+ERROR: [Coretcl 2-229] (archive_project): Project save_as failed due to the previous error(s).
+archive_project {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/S2_13_DINESH VALAVAN_SADIK MOHAMMAD_SRIMAL TRIJAL_WAYNE NEW_Improvements_Archive.xpr.zip} -temp_dir {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN} -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN' for archiving project
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board'
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN/PrjAr/_X_'.
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN/PrjAr/_X_/integrated_single_board.srcs/sources_1/imports/integrated_single_board/archive_project_summary.txt
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+ERROR: [Coretcl 2-229] (archive_project): Project save_as failed due to the previous error(s).
+archive_project {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board_FINAL.xpr.zip} -temp_dir {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN} -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN' for archiving project
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board'
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN/PrjAr/_X_'.
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN/PrjAr/_X_/integrated_single_board.srcs/sources_1/imports/integrated_single_board/archive_project_summary.txt
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+ERROR: [Coretcl 2-229] (archive_project): Project save_as failed due to the previous error(s).
+archive_project {C:/Users/alamg/OneDrive - National University of Singapore/Desktop/integrated_single_board.xpr.zip} -temp_dir {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN} -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN' for archiving project
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board'
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN/PrjAr/_X_'.
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN/PrjAr/_X_/integrated_single_board.srcs/sources_1/imports/integrated_single_board/archive_project_summary.txt
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+ERROR: [Coretcl 2-229] (archive_project): Project save_as failed due to the previous error(s).
+archive_project {C:/Users/alamg/OneDrive - National University of Singapore/Desktop/integrated_single_board.xpr.zip} -temp_dir {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN} -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN' for archiving project
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board'
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN/PrjAr/_X_'.
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN/PrjAr/_X_/integrated_single_board.srcs/sources_1/imports/integrated_single_board/archive_project_summary.txt
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+ERROR: [Coretcl 2-229] (archive_project): Project save_as failed due to the previous error(s).
+archive_project {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board.xpr.zip} -temp_dir {C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN} -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN' for archiving project
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board'
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN/PrjAr/_X_'.
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board/.Xil/Vivado-1832-FARHAN/PrjAr/_X_/integrated_single_board.srcs/sources_1/imports/integrated_single_board/archive_project_summary.txt
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+ERROR: [Coretcl 2-229] (archive_project): Project save_as failed due to the previous error(s).
+archive_project {C:/Users/alamg/OneDrive - National University of Singapore/Desktop/integrated_single_board.xpr.zip} -temp_dir {C:/Users/alamg/OneDrive - National University of Singapore/Desktop} -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/alamg/OneDrive - National University of Singapore/Desktop' for archiving project
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/alamg/Dropbox/PC/Downloads/Telegram Desktop/integrated_single_board_trijal_final_pls_test_wayne.xpr/integrated_single_board'
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
