@@ -1,0 +1,137 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Mon Apr 14 03:02:13 2025
+| Host         : DESKTOP-ETGLHQT running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file main_control_sets_placed.rpt
+| Design       : main
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    67 |
+| Unused register locations in slices containing registers |   150 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            1 |
+|      4 |            3 |
+|      8 |           13 |
+|     10 |            1 |
+|     12 |            2 |
+|     14 |            1 |
+|    16+ |           46 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             580 |          160 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             816 |          121 |
+| Yes          | No                    | No                     |             828 |          203 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             578 |           97 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------------------------------+-------------------------------------------------------------+-----------------------------------------------------------+------------------+----------------+
+|                        Clock Signal                       |                        Enable Signal                        |                      Set/Reset Signal                     | Slice Load Count | Bel Load Count |
++-----------------------------------------------------------+-------------------------------------------------------------+-----------------------------------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG                                            |                                                             | init/confirm_inst/pixel_data[10]_i_1__2_n_0               |                1 |              2 |
+|  player2/my_HP_SP_Status_Screen/color_reg[15]_i_1__0_n_0  |                                                             | player2/my_HP_SP_Status_Screen/color_reg[15]_i_2__0_n_0   |                1 |              4 |
+|  player1/my_HP_SP_Status_Screen/color_reg[15]_i_1_n_0     |                                                             | player1/my_HP_SP_Status_Screen/color_reg[15]_i_2_n_0      |                1 |              4 |
+| ~clk6p25mhz_BUFG                                          |                                                             |                                                           |                2 |              4 |
+|  clk_IBUF_BUFG                                            | player2/my_HP_SP_Status_Screen/hp_display_reg[3]_i_1__0_n_0 |                                                           |                2 |              8 |
+|  clk_IBUF_BUFG                                            | player1/my_HP_SP_Status_Screen/hp_display_reg[3]_i_1_n_0    |                                                           |                1 |              8 |
+|  clk_IBUF_BUFG                                            | player1/hp_control/E[0]                                     |                                                           |                2 |              8 |
+|  clk_IBUF_BUFG                                            | player2/hp_control/hp_reg[3]_i_2__0_n_0                     | player2/hp_control/hp_reg[3]_i_1__0_n_0                   |                2 |              8 |
+|  clk_IBUF_BUFG                                            | player1/my_HP_SP_Status_Screen/animation_start              |                                                           |                1 |              8 |
+|  clk_IBUF_BUFG                                            | player2/my_HP_SP_Status_Screen/animation_start              |                                                           |                1 |              8 |
+|  clk_IBUF_BUFG                                            | pixel_data_2[15]_i_2_n_0                                    | d2/pixel_data_2_reg[11]                                   |                2 |              8 |
+|  clk_IBUF_BUFG                                            | pixel_data_2[15]_i_2_n_0                                    | d2/pixel_data_2_reg[0]                                    |                1 |              8 |
+|  clk_IBUF_BUFG                                            | menu/player1/E[0]                                           |                                                           |                2 |              8 |
+|  clk_IBUF_BUFG                                            | menu/player2/sp_reg_reg[0][0]                               |                                                           |                2 |              8 |
+|  clk_IBUF_BUFG                                            | menu/buttons/count[3]_i_1_n_0                               |                                                           |                2 |              8 |
+|  clk_IBUF_BUFG                                            | player2/hp_control/E[0]                                     |                                                           |                2 |              8 |
+|  clk_IBUF_BUFG                                            | player1/hp_control/hp_reg[3]_i_2_n_0                        | player1/hp_control/hp_reg[3]_i_1_n_0                      |                2 |              8 |
+|  clk_IBUF_BUFG                                            | pixel_data_2[15]_i_2_n_0                                    | d2/pixel_data_2_reg[5]                                    |                3 |             10 |
+|  menu/player2/skill_b_enlarged                            |                                                             |                                                           |                3 |             12 |
+|  menu/player1/skill_b_enlarged                            |                                                             |                                                           |                2 |             12 |
+|  clk_IBUF_BUFG                                            | player1_ani/line_progress[6]_i_1_n_0                        |                                                           |                4 |             14 |
+|  clk_IBUF_BUFG                                            | player1_ani/heal_animation_active1                          | player1_ani/heal_timer                                    |                2 |             16 |
+|  clk_IBUF_BUFG                                            | player1_ani/blink_active1                                   | player1_ani/blink_timer                                   |                2 |             16 |
+|  clk_IBUF_BUFG                                            | player1_ani/end_animation1                                  | player1_ani/splash_timer                                  |                2 |             16 |
+|  seg1/clk1/slow_clk                                       |                                                             |                                                           |                3 |             18 |
+|  clk_IBUF_BUFG                                            |                                                             | menu/currPlyr                                             |                4 |             20 |
+|  clk_IBUF_BUFG                                            |                                                             | menu/player2/pixel_data[15]_i_1__0_n_0                    |                4 |             20 |
+|  clk_IBUF_BUFG                                            | menu/an_reg[0]_0                                            | menu/an_reg[0]                                            |                2 |             24 |
+|  player2/my_HP_SP_Status_Screen/OriginX_reg[6]_i_2__0_n_0 |                                                             |                                                           |                5 |             26 |
+|  player1/my_HP_SP_Status_Screen/OriginX_reg[6]_i_2_n_0    |                                                             |                                                           |                5 |             26 |
+|  clk_IBUF_BUFG                                            | init/pixel_data2[15]_i_2_n_0                                | init/pixel_data2[15]_i_1_n_0                              |               14 |             32 |
+|  clk_IBUF_BUFG                                            | pixel_data_1                                                |                                                           |                3 |             32 |
+|  clk_IBUF_BUFG                                            | pixel_data_1                                                | led[15]_i_1__0_n_0                                        |                7 |             32 |
+|  clk_IBUF_BUFG                                            | led1/led[15]_i_1_n_0                                        |                                                           |                7 |             32 |
+| ~clk6p25mhz_BUFG                                          |                                                             | oled1/frame_counter[16]_i_1_n_0                           |                5 |             34 |
+| ~clk6p25mhz_BUFG                                          |                                                             | oled2/frame_counter[16]_i_1__0_n_0                        |                5 |             34 |
+|  clk_IBUF_BUFG                                            |                                                             | d1/counter[0]_i_1_n_0                                     |                5 |             36 |
+|  clk_IBUF_BUFG                                            |                                                             | d5/counter[0]_i_1__3_n_0                                  |                5 |             36 |
+|  clk_IBUF_BUFG                                            |                                                             | d4/counter[0]_i_1__2_n_0                                  |                5 |             36 |
+|  clk_IBUF_BUFG                                            |                                                             | d3/counter[0]_i_1__1_n_0                                  |                5 |             36 |
+|  clk_IBUF_BUFG                                            |                                                             | d2/counter[0]_i_1__0_n_0                                  |                5 |             36 |
+|  clk_IBUF_BUFG                                            | player1_ani/p1_y[5]_i_1_n_0                                 |                                                           |               17 |             40 |
+| ~clk6p25mhz_BUFG                                          | oled1/delay[0]_i_1_n_0                                      |                                                           |                5 |             40 |
+| ~clk6p25mhz_BUFG                                          | oled2/delay[0]_i_1__0_n_0                                   |                                                           |                5 |             40 |
+|  clk_IBUF_BUFG                                            |                                                             | player1_ani/clear                                         |                6 |             44 |
+|  clk_IBUF_BUFG                                            | player1/hp_control/toggle_counter_reg[24]_0                 | player1/hp_control/toggle_counter_reg[24]                 |               10 |             50 |
+|  clk_IBUF_BUFG                                            | player2/hp_control/toggle_counter_reg[24]                   | player2/hp_control/toggle_counter_reg[0]                  |                7 |             50 |
+|  clk_IBUF_BUFG                                            |                                                             | init/screen_display/clear                                 |                7 |             52 |
+|  clk_IBUF_BUFG                                            |                                                             | init/player_choice_display/clear                          |                7 |             52 |
+|  clk_IBUF_BUFG                                            | player1/my_HP_SP_Status_Screen/anim_active                  | player1/my_HP_SP_Status_Screen/anim_counter[0]_i_1_n_0    |                7 |             54 |
+|  clk_IBUF_BUFG                                            | player2/my_HP_SP_Status_Screen/anim_active                  | player2/my_HP_SP_Status_Screen/anim_counter[0]_i_1__0_n_0 |                7 |             54 |
+|  clk_IBUF_BUFG                                            | player1_ani/p1_x[6]_i_1_n_0                                 |                                                           |               28 |             62 |
+|  clk_IBUF_BUFG                                            |                                                             | menu/buttons/count_2hz[31]_i_1_n_0                        |                8 |             62 |
+|  clk_IBUF_BUFG                                            | counter_endscreen[0]_i_1_n_0                                |                                                           |                8 |             64 |
+|  clk_IBUF_BUFG                                            | menu/player1/count                                          | menu/player1/count0                                       |                8 |             64 |
+|  clk_IBUF_BUFG                                            |                                                             | clk1/clear                                                |                8 |             64 |
+|  clk_IBUF_BUFG                                            | menu/player2/count                                          | menu/player2/count0                                       |                8 |             64 |
+|  clk_IBUF_BUFG                                            |                                                             | seg1/clk1/clear                                           |                8 |             64 |
+|  clk_IBUF_BUFG                                            | menu/step_counter_reg[31][0]                                | menu/SR[0]                                                |               11 |             64 |
+| ~clk6p25mhz_BUFG                                          | oled1/state                                                 |                                                           |                8 |             64 |
+| ~clk6p25mhz_BUFG                                          | oled2/state                                                 |                                                           |                9 |             64 |
+| ~oled1/pixel_data2_reg[15]_0_BUFG                         |                                                             |                                                           |               30 |             84 |
+| ~clk6p25mhz_BUFG                                          |                                                             | oled1/spi_word[39]_i_1_n_0                                |               14 |             90 |
+| ~clk6p25mhz_BUFG                                          |                                                             | oled2/spi_word[39]_i_1__0_n_0                             |               17 |             90 |
+|  clk_IBUF_BUFG                                            | player1_ani/sprite_x2                                       |                                                           |               23 |             94 |
+|  clk_IBUF_BUFG                                            | player1_ani/sprite_x                                        |                                                           |               71 |            210 |
+|  clk_IBUF_BUFG                                            |                                                             |                                                           |              110 |            398 |
++-----------------------------------------------------------+-------------------------------------------------------------+-----------------------------------------------------------+------------------+----------------+
+
+

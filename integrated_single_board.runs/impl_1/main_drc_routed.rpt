@@ -1,0 +1,66 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Mon Apr 14 03:03:49 2025
+| Host         : DESKTOP-ETGLHQT running 64-bit major release  (build 9200)
+| Command      : report_drc -file main_drc_routed.rpt -pb main_drc_routed.pb -rpx main_drc_routed.rpx
+| Design       : main
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Routed
+------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 6
++----------+----------+-------------------+------------+
+| Rule     | Severity | Description       | Violations |
++----------+----------+-------------------+------------+
+| PDRC-153 | Warning  | Gated clock check | 6          |
++----------+----------+-------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PDRC-153#1 Warning
+Gated clock check  
+Net menu/player1/skill_b_enlarged is a gated clock net sourced by a combinational pin menu/player1/skill_b_reg[0][20]_i_2/O, cell menu/player1/skill_b_reg[0][20]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net menu/player2/skill_b_enlarged is a gated clock net sourced by a combinational pin menu/player2/skill_b_reg[0][20]_i_2/O, cell menu/player2/skill_b_reg[0][20]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#3 Warning
+Gated clock check  
+Net player1/my_HP_SP_Status_Screen/OriginX_reg[6]_i_2_n_0 is a gated clock net sourced by a combinational pin player1/my_HP_SP_Status_Screen/OriginX_reg[6]_i_2/O, cell player1/my_HP_SP_Status_Screen/OriginX_reg[6]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#4 Warning
+Gated clock check  
+Net player1/my_HP_SP_Status_Screen/color_reg[15]_i_1_n_0 is a gated clock net sourced by a combinational pin player1/my_HP_SP_Status_Screen/color_reg[15]_i_1/O, cell player1/my_HP_SP_Status_Screen/color_reg[15]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#5 Warning
+Gated clock check  
+Net player2/my_HP_SP_Status_Screen/OriginX_reg[6]_i_2__0_n_0 is a gated clock net sourced by a combinational pin player2/my_HP_SP_Status_Screen/OriginX_reg[6]_i_2__0/O, cell player2/my_HP_SP_Status_Screen/OriginX_reg[6]_i_2__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#6 Warning
+Gated clock check  
+Net player2/my_HP_SP_Status_Screen/color_reg[15]_i_1__0_n_0 is a gated clock net sourced by a combinational pin player2/my_HP_SP_Status_Screen/color_reg[15]_i_1__0/O, cell player2/my_HP_SP_Status_Screen/color_reg[15]_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+

@@ -1,0 +1,2373 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Apr 14 02:57:05 2025
+# Process ID: 9520
+# Current directory: C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.runs/synth_1
+# Command line: vivado.exe -log main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl
+# Log file: C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.runs/synth_1/main.vds
+# Journal file: C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source main.tcl -notrace
+Command: synth_design -top main -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7156 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 363.441 ; gain = 105.984
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'main' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/main.v:2]
+	Parameter start bound to: 2'b00 
+	Parameter game bound to: 2'b01 
+	Parameter over bound to: 2'b10 
+	Parameter countercounter bound to: -1294967297 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'flex_clk' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/flex_clk.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'flex_clk' (1#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/flex_clk.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Oled_Display' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Oled_Display.v:36]
+	Parameter Width bound to: 96 - type: integer 
+	Parameter Height bound to: 64 - type: integer 
+	Parameter PixelCount bound to: 6144 - type: integer 
+	Parameter PixelCountWidth bound to: 13 - type: integer 
+	Parameter ClkFreq bound to: 6250000 - type: integer 
+	Parameter FrameFreq bound to: 60 - type: integer 
+	Parameter FrameDiv bound to: 104166 - type: integer 
+	Parameter FrameDivWidth bound to: 17 - type: integer 
+	Parameter PowerDelay bound to: 20 - type: integer 
+	Parameter ResetDelay bound to: 3 - type: integer 
+	Parameter VccEnDelay bound to: 20 - type: integer 
+	Parameter StartupCompleteDelay bound to: 100 - type: integer 
+	Parameter MaxDelay bound to: 100 - type: integer 
+	Parameter MaxDelayCount bound to: 625000 - type: integer 
+	Parameter StateCount bound to: 32 - type: integer 
+	Parameter StateWidth bound to: 5 - type: integer 
+	Parameter PowerUp bound to: 5'b00000 
+	Parameter Reset bound to: 5'b00001 
+	Parameter ReleaseReset bound to: 5'b00011 
+	Parameter EnableDriver bound to: 5'b00010 
+	Parameter DisplayOff bound to: 5'b00110 
+	Parameter SetRemapDisplayFormat bound to: 5'b00111 
+	Parameter SetStartLine bound to: 5'b00101 
+	Parameter SetOffset bound to: 5'b00100 
+	Parameter SetNormalDisplay bound to: 5'b01100 
+	Parameter SetMultiplexRatio bound to: 5'b01101 
+	Parameter SetMasterConfiguration bound to: 5'b01111 
+	Parameter DisablePowerSave bound to: 5'b01110 
+	Parameter SetPhaseAdjust bound to: 5'b01010 
+	Parameter SetDisplayClock bound to: 5'b01011 
+	Parameter SetSecondPrechargeA bound to: 5'b01001 
+	Parameter SetSecondPrechargeB bound to: 5'b01000 
+	Parameter SetSecondPrechargeC bound to: 5'b11000 
+	Parameter SetPrechargeLevel bound to: 5'b11001 
+	Parameter SetVCOMH bound to: 5'b11011 
+	Parameter SetMasterCurrent bound to: 5'b11010 
+	Parameter SetContrastA bound to: 5'b11110 
+	Parameter SetContrastB bound to: 5'b11111 
+	Parameter SetContrastC bound to: 5'b11101 
+	Parameter DisableScrolling bound to: 5'b11100 
+	Parameter ClearScreen bound to: 5'b10100 
+	Parameter VccEn bound to: 5'b10101 
+	Parameter DisplayOn bound to: 5'b10111 
+	Parameter PrepareNextFrame bound to: 5'b10110 
+	Parameter SetColAddress bound to: 5'b10010 
+	Parameter SetRowAddress bound to: 5'b10011 
+	Parameter WaitNextFrame bound to: 5'b10001 
+	Parameter SendPixel bound to: 5'b10000 
+	Parameter SpiCommandMaxWidth bound to: 40 - type: integer 
+	Parameter SpiCommandBitCountWidth bound to: 6 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Oled_Display.v:123]
+INFO: [Synth 8-226] default block is never used [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Oled_Display.v:198]
+WARNING: [Synth 8-693] zero replication count - replication ignored [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Oled_Display.v:346]
+INFO: [Synth 8-6155] done synthesizing module 'Oled_Display' (2#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Oled_Display.v:36]
+INFO: [Synth 8-6157] synthesizing module 'coord' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/coord.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'coord' (3#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/coord.v:23]
+INFO: [Synth 8-6157] synthesizing module 'debouncer' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/debouncer.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'debouncer' (4#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/debouncer.v:2]
+INFO: [Synth 8-6157] synthesizing module 'initial_phase' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/initial_phase.v:23]
+	Parameter SCREEN_START bound to: 3'b000 
+	Parameter SCREEN_PLAYER_CHOICE bound to: 3'b001 
+	Parameter SCREEN_PLAYER1 bound to: 3'b010 
+	Parameter SCREEN_CONFIRM1 bound to: 3'b011 
+	Parameter SCREEN_PLAYER2 bound to: 3'b100 
+	Parameter SCREEN_CONFIRM2 bound to: 3'b101 
+	Parameter IDLE bound to: 3'b110 
+	Parameter btnState0 bound to: 2'b00 
+	Parameter btnState1 bound to: 2'b01 
+	Parameter btnState2 bound to: 2'b10 
+INFO: [Synth 8-6157] synthesizing module 'pokemon_selector' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/waynes_work.v:1]
+	Parameter SPRITE_W bound to: 30 - type: integer 
+	Parameter SPRITE_H bound to: 30 - type: integer 
+	Parameter SPRITE_X_START bound to: 33 - type: integer 
+	Parameter SPRITE_Y_START bound to: 17 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'bulbasaur_small' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/bulbasaur_small.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'bulbasaur_small' (5#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/bulbasaur_small.v:1]
+INFO: [Synth 8-6157] synthesizing module 'squirtle_small' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/squirtle_small.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'squirtle_small' (6#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/squirtle_small.v:1]
+INFO: [Synth 8-6157] synthesizing module 'charmander_small' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/charmander_small.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'charmander_small' (7#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/charmander_small.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pokemon_selector' (8#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/waynes_work.v:1]
+INFO: [Synth 8-6157] synthesizing module 'start_screen' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/start_screen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'start_screen' (9#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/start_screen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'player_screen' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/player_screen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'player_screen' (10#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/player_screen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'player1' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/player1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'player1' (11#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/player1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'player2' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/player2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'player2' (12#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/player2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'confirm_screen' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/confirm_screen.v:23]
+	Parameter BOX_X_START bound to: 18 - type: integer 
+	Parameter BOX_Y_START bound to: 10 - type: integer 
+	Parameter BOX_WIDTH bound to: 64 - type: integer 
+	Parameter BOX_HEIGHT bound to: 36 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'confirm_screen' (13#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/confirm_screen.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/initial_phase.v:93]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/initial_phase.v:120]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/initial_phase.v:163]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/initial_phase.v:77]
+INFO: [Synth 8-6155] done synthesizing module 'initial_phase' (14#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/initial_phase.v:23]
+INFO: [Synth 8-6157] synthesizing module 'player_interface' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/player_interface.v:24]
+	Parameter P1 bound to: 0 - type: integer 
+	Parameter P2 bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'bot' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/bot.v:23]
+	Parameter IDLE bound to: 3'b000 
+	Parameter TACKLE bound to: 3'b001 
+	Parameter SPECIAL bound to: 3'b010 
+	Parameter HEAL bound to: 3'b011 
+	Parameter PASS bound to: 3'b100 
+	Parameter AGGRESSIVE bound to: 2'b00 
+	Parameter DEFENSIVE bound to: 2'b01 
+	Parameter CAUTIOUS bound to: 2'b10 
+	Parameter OPPORTUNIST bound to: 2'b11 
+INFO: [Synth 8-6155] done synthesizing module 'bot' (15#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/bot.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'bot_hp' does not match port width (5) of module 'bot' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/player_interface.v:35]
+INFO: [Synth 8-6157] synthesizing module 'bot_buttons' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/bot_buttons.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/bot_buttons.v:37]
+INFO: [Synth 8-4471] merging register 'btnL_reg' into 'btnU_reg' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/bot_buttons.v:30]
+WARNING: [Synth 8-6014] Unused sequential element btnL_reg was removed.  [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/bot_buttons.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'bot_buttons' (16#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/bot_buttons.v:23]
+INFO: [Synth 8-6157] synthesizing module 'display_control' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:23]
+	Parameter SQUIRTLE bound to: 2'b00 
+	Parameter CHARMANDER bound to: 2'b01 
+	Parameter BULBASAUR bound to: 2'b10 
+	Parameter x_left bound to: 7'b0000111 
+	Parameter x_right bound to: 7'b1000001 
+	Parameter y_pos bound to: 7'b0101101 
+	Parameter left_len bound to: 6'b110010 
+	Parameter right_len bound to: 6'b010110 
+	Parameter idle bound to: 5'b00000 
+	Parameter selectA bound to: 5'b00001 
+	Parameter selectB bound to: 5'b00010 
+	Parameter selectH bound to: 5'b00011 
+	Parameter selectP bound to: 5'b00100 
+	Parameter selectPause bound to: 5'b00101 
+	Parameter confirmScreen bound to: 5'b00110 
+	Parameter selectYes bound to: 5'b00111 
+	Parameter selectNo bound to: 5'b01000 
+	Parameter pauseScreen bound to: 5'b01001 
+	Parameter selectInfo bound to: 5'b01010 
+	Parameter selectResume bound to: 5'b01011 
+	Parameter selectRestart bound to: 5'b01100 
+	Parameter confirmRestart bound to: 5'b01101 
+	Parameter noSP bound to: 5'b01110 
+	Parameter confirmNoSP bound to: 5'b01111 
+	Parameter noTime bound to: 5'b10000 
+	Parameter info1 bound to: 5'b10001 
+	Parameter info2 bound to: 5'b10010 
+	Parameter selectDown bound to: 5'b10011 
+	Parameter selectUp bound to: 5'b10100 
+	Parameter selectCancel bound to: 5'b10101 
+	Parameter SP_FOR_TACKLE bound to: 1 - type: integer 
+	Parameter SP_FOR_SPECIAL bound to: 2 - type: integer 
+	Parameter SP_FOR_HEAL bound to: 5 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:313]
+WARNING: [Synth 8-6090] variable 'count' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:394]
+WARNING: [Synth 8-6090] variable 'endTurn' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:407]
+WARNING: [Synth 8-6090] variable 'count' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:410]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:421]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:436]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:460]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:477]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:501]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:518]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:542]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:557]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:583]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:598]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:624]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:639]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:664]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:675]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:688]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:701]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:714]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:727]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:740]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:750]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:770]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:781]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:794]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:807]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:820]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:833]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:846]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:856]
+WARNING: [Synth 8-6090] variable 'endTurn' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:867]
+WARNING: [Synth 8-6090] variable 'skill' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:869]
+WARNING: [Synth 8-6090] variable 'skill' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:870]
+WARNING: [Synth 8-6090] variable 'skill' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:871]
+WARNING: [Synth 8-6090] variable 'skill' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:872]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:868]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:888]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:899]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:912]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:925]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:938]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:951]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:964]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:974]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:999]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1019]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1039]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1065]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1085]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1105]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1121]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1141]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1161]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1181]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1197]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1217]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1237]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1257]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1273]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1293]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1305]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1325]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1337]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1356]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1374]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1384]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1394]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1406]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1418]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1430]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1440]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1453]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1466]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1474]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1489]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1499]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1509]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1519]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1529]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1539]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1549]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1564]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1574]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1584]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1594]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1604]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1614]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1624]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1641]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1651]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1661]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1673]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1685]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1697]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1707]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1720]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1733]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1743]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1758]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1768]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:1778]
+INFO: [Common 17-14] Message 'Synth 8-155' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'display_control' (17#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:23]
+WARNING: [Synth 8-6014] Unused sequential element endTurn_reg was removed.  [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/player_interface.v:85]
+WARNING: [Synth 8-6014] Unused sequential element prev_endTurn_p1_reg was removed.  [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/player_interface.v:97]
+WARNING: [Synth 8-6014] Unused sequential element prev_endTurn_p2_reg was removed.  [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/player_interface.v:98]
+INFO: [Synth 8-6155] done synthesizing module 'player_interface' (18#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/player_interface.v:24]
+INFO: [Synth 8-6157] synthesizing module 'hp_sp_status' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/hp_sp_status.v:3]
+	Parameter HP_THRESHOLD bound to: 5 - type: integer 
+	Parameter TOGGLE_MAX bound to: 25000000 - type: integer 
+	Parameter TOTAL_TOGGLES bound to: 6 - type: integer 
+	Parameter S_NORMAL bound to: 0 - type: integer 
+	Parameter S_BLINK bound to: 1 - type: integer 
+	Parameter S_DONE bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'HP_AND_SKILL' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/HP_AND_SKILL.v:2]
+INFO: [Synth 8-6157] synthesizing module 'five_second_pulse' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/five_second_pulse.v:2]
+	Parameter MAX_COUNT bound to: 499999999 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'five_second_pulse' (19#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/five_second_pulse.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'HP_AND_SKILL' (20#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/HP_AND_SKILL.v:2]
+INFO: [Synth 8-6157] synthesizing module 'HP_SP_Status_Screen' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/my_HP_SP_Status_Screen.v:2]
+	Parameter HP_STEP_TIME bound to: 80000000 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'rectangle_generator' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/rectangle_generator.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'rectangle_generator' (21#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/rectangle_generator.v:23]
+WARNING: [Synth 8-689] width (8) of port connection 'X' does not match port width (7) of module 'rectangle_generator' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/my_HP_SP_Status_Screen.v:178]
+WARNING: [Synth 8-689] width (8) of port connection 'Y' does not match port width (7) of module 'rectangle_generator' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/my_HP_SP_Status_Screen.v:178]
+WARNING: [Synth 8-689] width (6) of port connection 'width' does not match port width (7) of module 'rectangle_generator' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/my_HP_SP_Status_Screen.v:181]
+WARNING: [Synth 8-689] width (8) of port connection 'X' does not match port width (7) of module 'rectangle_generator' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/my_HP_SP_Status_Screen.v:205]
+WARNING: [Synth 8-689] width (8) of port connection 'Y' does not match port width (7) of module 'rectangle_generator' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/my_HP_SP_Status_Screen.v:205]
+WARNING: [Synth 8-689] width (16) of port connection 'OriginX' does not match port width (7) of module 'rectangle_generator' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/my_HP_SP_Status_Screen.v:206]
+WARNING: [Synth 8-689] width (6) of port connection 'width' does not match port width (7) of module 'rectangle_generator' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/my_HP_SP_Status_Screen.v:208]
+WARNING: [Synth 8-689] width (6) of port connection 'width' does not match port width (7) of module 'rectangle_generator' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/my_HP_SP_Status_Screen.v:231]
+INFO: [Synth 8-6157] synthesizing module 'picopixel' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/picopixel.v:23]
+INFO: [Synth 8-6157] synthesizing module 'picopixel_LUT' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/picopixel_LUT.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'picopixel_LUT' (22#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/picopixel_LUT.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'picopixel' (23#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/picopixel.v:23]
+WARNING: [Synth 8-6014] Unused sequential element damage_amount_reg was removed.  [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/my_HP_SP_Status_Screen.v:72]
+WARNING: [Synth 8-6014] Unused sequential element heal_amount_reg was removed.  [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/my_HP_SP_Status_Screen.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'HP_SP_Status_Screen' (24#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/my_HP_SP_Status_Screen.v:2]
+WARNING: [Synth 8-689] width (7) of port connection 'x_8bit' does not match port width (8) of module 'HP_SP_Status_Screen' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/hp_sp_status.v:48]
+WARNING: [Synth 8-689] width (7) of port connection 'y_8bit' does not match port width (8) of module 'HP_SP_Status_Screen' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/hp_sp_status.v:49]
+WARNING: [Synth 8-689] width (4) of port connection 'HP_Level' does not match port width (8) of module 'HP_SP_Status_Screen' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/hp_sp_status.v:50]
+WARNING: [Synth 8-689] width (4) of port connection 'SP_Level' does not match port width (8) of module 'HP_SP_Status_Screen' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/hp_sp_status.v:51]
+WARNING: [Synth 8-350] instance 'my_HP_SP_Status_Screen' of module 'HP_SP_Status_Screen' requires 13 connections, but only 6 given [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/hp_sp_status.v:46]
+INFO: [Synth 8-6157] synthesizing module 'Low_Health_Status_Screen' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Font_5X7.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Font_5X7_LUT' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Font_5X7_LUT.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Font_5X7_LUT' (25#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Font_5X7_LUT.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Font_5X7' (26#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Font_5X7.v:23]
+WARNING: [Synth 8-689] width (8) of port connection 'X' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:14]
+WARNING: [Synth 8-689] width (8) of port connection 'Y' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:15]
+WARNING: [Synth 8-689] width (8) of port connection 'X' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:29]
+WARNING: [Synth 8-689] width (8) of port connection 'Y' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:30]
+WARNING: [Synth 8-689] width (8) of port connection 'X' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:44]
+WARNING: [Synth 8-689] width (8) of port connection 'Y' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:45]
+WARNING: [Synth 8-689] width (8) of port connection 'X' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:59]
+WARNING: [Synth 8-689] width (8) of port connection 'Y' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:60]
+WARNING: [Synth 8-689] width (8) of port connection 'X' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:74]
+WARNING: [Synth 8-689] width (8) of port connection 'Y' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:75]
+WARNING: [Synth 8-689] width (8) of port connection 'X' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:89]
+WARNING: [Synth 8-689] width (8) of port connection 'Y' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:90]
+WARNING: [Synth 8-689] width (8) of port connection 'X' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:104]
+WARNING: [Synth 8-689] width (8) of port connection 'Y' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:105]
+WARNING: [Synth 8-689] width (8) of port connection 'X' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:119]
+WARNING: [Synth 8-689] width (8) of port connection 'Y' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:120]
+WARNING: [Synth 8-689] width (8) of port connection 'X' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:134]
+WARNING: [Synth 8-689] width (8) of port connection 'Y' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:135]
+WARNING: [Synth 8-689] width (8) of port connection 'X' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:149]
+WARNING: [Synth 8-689] width (8) of port connection 'Y' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:150]
+WARNING: [Synth 8-689] width (8) of port connection 'X' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:164]
+WARNING: [Synth 8-689] width (8) of port connection 'Y' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:165]
+WARNING: [Synth 8-689] width (8) of port connection 'X' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:179]
+WARNING: [Synth 8-689] width (8) of port connection 'Y' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:180]
+INFO: [Synth 8-6155] done synthesizing module 'Low_Health_Status_Screen' (27#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/Low_Health_Status_Screen.v:2]
+WARNING: [Synth 8-689] width (7) of port connection 'x_8bit' does not match port width (8) of module 'Low_Health_Status_Screen' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/hp_sp_status.v:59]
+WARNING: [Synth 8-689] width (7) of port connection 'y_8bit' does not match port width (8) of module 'Low_Health_Status_Screen' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/hp_sp_status.v:60]
+INFO: [Synth 8-6157] synthesizing module 'skillB_cooldown_screen' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/skillB_cooldown_screen.v:2]
+WARNING: [Synth 8-689] width (8) of port connection 'X' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/skillB_cooldown_screen.v:12]
+WARNING: [Synth 8-689] width (8) of port connection 'Y' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/skillB_cooldown_screen.v:13]
+WARNING: [Synth 8-689] width (8) of port connection 'X' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/skillB_cooldown_screen.v:25]
+WARNING: [Synth 8-689] width (8) of port connection 'Y' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/skillB_cooldown_screen.v:26]
+WARNING: [Synth 8-689] width (8) of port connection 'X' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/skillB_cooldown_screen.v:38]
+WARNING: [Synth 8-689] width (8) of port connection 'Y' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/skillB_cooldown_screen.v:39]
+WARNING: [Synth 8-689] width (8) of port connection 'X' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/skillB_cooldown_screen.v:51]
+WARNING: [Synth 8-689] width (8) of port connection 'Y' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/skillB_cooldown_screen.v:52]
+WARNING: [Synth 8-689] width (8) of port connection 'X' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/skillB_cooldown_screen.v:64]
+WARNING: [Synth 8-689] width (8) of port connection 'Y' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/skillB_cooldown_screen.v:65]
+WARNING: [Synth 8-689] width (8) of port connection 'X' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/skillB_cooldown_screen.v:77]
+WARNING: [Synth 8-689] width (8) of port connection 'Y' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/skillB_cooldown_screen.v:78]
+WARNING: [Synth 8-689] width (8) of port connection 'X' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/skillB_cooldown_screen.v:90]
+WARNING: [Synth 8-689] width (8) of port connection 'Y' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/skillB_cooldown_screen.v:91]
+WARNING: [Synth 8-689] width (8) of port connection 'X' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/skillB_cooldown_screen.v:103]
+WARNING: [Synth 8-689] width (8) of port connection 'Y' does not match port width (7) of module 'Font_5X7' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/skillB_cooldown_screen.v:104]
+INFO: [Synth 8-6155] done synthesizing module 'skillB_cooldown_screen' (28#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/skillB_cooldown_screen.v:2]
+WARNING: [Synth 8-689] width (7) of port connection 'x_8bit' does not match port width (8) of module 'skillB_cooldown_screen' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/hp_sp_status.v:68]
+WARNING: [Synth 8-689] width (7) of port connection 'y_8bit' does not match port width (8) of module 'skillB_cooldown_screen' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/hp_sp_status.v:69]
+WARNING: [Synth 8-3848] Net skill_B_available in module/entity hp_sp_status does not have driver. [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/hp_sp_status.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'hp_sp_status' (29#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/hp_sp_status.v:3]
+INFO: [Synth 8-6157] synthesizing module 'led_control' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/led_control.v:23]
+	Parameter STEP_CYCLES bound to: 32'b00000011101110011010110010011111 
+WARNING: [Synth 8-6090] variable 'ender' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/led_control.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'led_control' (30#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/led_control.v:23]
+INFO: [Synth 8-6157] synthesizing module 'seven_seg' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/seven_seg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'seven_seg' (31#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/seven_seg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'pokemon_animation' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:1]
+	Parameter LINE_MAX bound to: 60 - type: integer 
+	Parameter BLINK_3SEC bound to: 120 - type: integer 
+	Parameter SPLASH_DURATION bound to: 80 - type: integer 
+	Parameter HEAL_DURATION bound to: 120 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'splash_screen' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/splash_screen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'splash_screen' (32#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/splash_screen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'splash_screen_player1' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/splash_screen_player1.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'splash_screen_player1' (33#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/splash_screen_player1.v:2]
+INFO: [Synth 8-6157] synthesizing module 'squirtle_big' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/squirtle_big.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'squirtle_big' (34#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/squirtle_big.v:1]
+INFO: [Synth 8-6157] synthesizing module 'charmander_big' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/charmander_big_display.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'charmander_big' (35#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/charmander_big_display.v:1]
+INFO: [Synth 8-6157] synthesizing module 'bulbasaur_big' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/bulbasaur_big.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'bulbasaur_big' (36#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/bulbasaur_big.v:1]
+WARNING: [Synth 8-6014] Unused sequential element counter_reg was removed.  [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:244]
+WARNING: [Synth 8-6014] Unused sequential element on_line_reg was removed.  [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:410]
+WARNING: [Synth 8-6014] Unused sequential element calc_x_reg was removed.  [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+WARNING: [Synth 8-6014] Unused sequential element calc_y_reg was removed.  [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+WARNING: [Synth 8-6014] Unused sequential element thick_reg was removed.  [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:422]
+INFO: [Synth 8-6155] done synthesizing module 'pokemon_animation' (37#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:1]
+INFO: [Synth 8-6157] synthesizing module 'end_screen' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/end_screen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'end_screen' (38#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/end_screen.v:23]
+WARNING: [Synth 8-6090] variable 'state' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/main.v:241]
+WARNING: [Synth 8-3848] Net opp_skill_B_available_p1 in module/entity main does not have driver. [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/main.v:124]
+WARNING: [Synth 8-3848] Net opp_skill_B_available_p2 in module/entity main does not have driver. [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/main.v:124]
+INFO: [Synth 8-6155] done synthesizing module 'main' (39#1) [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/main.v:2]
+WARNING: [Synth 8-3331] design skillB_cooldown_screen has unconnected port basys_clk
+WARNING: [Synth 8-3331] design skillB_cooldown_screen has unconnected port x_8bit[7]
+WARNING: [Synth 8-3331] design skillB_cooldown_screen has unconnected port y_8bit[7]
+WARNING: [Synth 8-3331] design Low_Health_Status_Screen has unconnected port basys_clk
+WARNING: [Synth 8-3331] design Low_Health_Status_Screen has unconnected port x_8bit[7]
+WARNING: [Synth 8-3331] design Low_Health_Status_Screen has unconnected port y_8bit[7]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port done
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port x_8bit[7]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port y_8bit[7]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port btnU
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port btnD
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port btnC
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port btnR
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port btnL
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port data_out[7]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port data_out[6]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port data_out[5]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port data_out[4]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port data_out[3]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port data_out[2]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port data_out[1]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port data_out[0]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port HP_Level[7]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port HP_Level[6]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port HP_Level[5]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port HP_Level[4]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port SP_Level[7]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port SP_Level[6]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port SP_Level[5]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port SP_Level[4]
+WARNING: [Synth 8-3331] design HP_AND_SKILL has unconnected port opp_end_game
+WARNING: [Synth 8-3331] design hp_sp_status has unconnected port skill_B_available
+WARNING: [Synth 8-3331] design hp_sp_status has unconnected port opp_skill_B_available
+WARNING: [Synth 8-3331] design bot has unconnected port current_round[5]
+WARNING: [Synth 8-3331] design bot has unconnected port current_round[4]
+WARNING: [Synth 8-3331] design bot has unconnected port current_round[3]
+WARNING: [Synth 8-3331] design bot has unconnected port current_round[2]
+WARNING: [Synth 8-3331] design bot has unconnected port current_round[1]
+WARNING: [Synth 8-3331] design confirm_screen has unconnected port btnState[1]
+WARNING: [Synth 8-3331] design confirm_screen has unconnected port btnState[0]
+WARNING: [Synth 8-3331] design player_screen has unconnected port btnU_in
+WARNING: [Synth 8-3331] design player_screen has unconnected port btnC_in
+WARNING: [Synth 8-3331] design player_screen has unconnected port btnD_in
+WARNING: [Synth 8-3331] design main has unconnected port JA[2]
+WARNING: [Synth 8-3331] design main has unconnected port JB[2]
+WARNING: [Synth 8-3331] design main has unconnected port sw_hp_sp
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 498.020 ; gain = 240.562
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 498.020 ; gain = 240.562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 498.020 ; gain = 240.562
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/constrs_1/new/cons.xdc]
+Finished Parsing XDC File [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/constrs_1/new/cons.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/constrs_1/new/cons.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 859.570 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:20 . Memory (MB): peak = 859.570 ; gain = 602.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:20 . Memory (MB): peak = 859.570 ; gain = 602.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:20 . Memory (MB): peak = 859.570 ; gain = 602.113
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Oled_Display'
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "fsm_next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "initial_screen_design" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "arrow" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "arrow" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "player_choice" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pixel_data" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pixel_data" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pixel_data" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pixel_data" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pixel_data" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pixel_data" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tick" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cross" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'screen_state_reg' in module 'initial_phase'
+INFO: [Synth 8-5544] ROM "game_start" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "btnState" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "checker" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pixel_data2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "screen_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "screen_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "screen_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "screen_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "screen_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "screen_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p_0_in" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "btnD3" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "btnD3" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "skill" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "skill" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "state" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "state" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "state" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "state" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "state" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/my_HP_SP_Status_Screen.v:105]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/my_HP_SP_Status_Screen.v:194]
+INFO: [Synth 8-5544] ROM "OriginX" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5587] ROM size for "row_pattern" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "row_pattern" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "row_pattern" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "row_pattern" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "row_pattern" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "row_pattern" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "row_pattern" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "row_pattern" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "row_pattern" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "row_pattern" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "row_pattern" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'blink_state_reg' in module 'hp_sp_status'
+INFO: [Synth 8-5544] ROM "blink_state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "blink_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "led" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "step_counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "seg" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:414]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/poke ani.v:416]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'main'
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pixel_data_1" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 PowerUp | 00000000100000000000000000000000 |                            00000
+                   Reset | 00000000000100000000000000000000 |                            00001
+            ReleaseReset | 00000000000000000000100000000000 |                            00011
+            EnableDriver | 00000000000000000001000000000000 |                            00010
+              DisplayOff | 00000000000000000100000000000000 |                            00110
+   SetRemapDisplayFormat | 00000100000000000000000000000000 |                            00111
+            SetStartLine | 00001000000000000000000000000000 |                            00101
+               SetOffset | 10000000000000000000000000000000 |                            00100
+        SetNormalDisplay | 00000000000000000000000010000000 |                            01100
+       SetMultiplexRatio | 00000000000000000000000000100000 |                            01101
+  SetMasterConfiguration | 00000000000000000000000001000000 |                            01111
+        DisablePowerSave | 00000000000000000000000000000100 |                            01110
+          SetPhaseAdjust | 00000000000000000000000000001000 |                            01010
+         SetDisplayClock | 00000000001000000000000000000000 |                            01011
+     SetSecondPrechargeA | 00000000010000000000000000000000 |                            01001
+     SetSecondPrechargeB | 01000000000000000000000000000000 |                            01000
+     SetSecondPrechargeC | 00000010000000000000000000000000 |                            11000
+       SetPrechargeLevel | 00000001000000000000000000000000 |                            11001
+                SetVCOMH | 00000000000000010000000000000000 |                            11011
+        SetMasterCurrent | 00000000000000100000000000000000 |                            11010
+            SetContrastA | 00000000000001000000000000000000 |                            11110
+            SetContrastB | 00100000000000000000000000000000 |                            11111
+            SetContrastC | 00000000000000000000000000000001 |                            11101
+        DisableScrolling | 00000000000000000000000000000010 |                            11100
+             ClearScreen | 00000000000000000000000000010000 |                            10100
+                   VccEn | 00010000000000000000000000000000 |                            10101
+               DisplayOn | 00000000000010000000000000000000 |                            10111
+        PrepareNextFrame | 00000000000000001000000000000000 |                            10110
+           SetColAddress | 00000000000000000000010000000000 |                            10010
+           SetRowAddress | 00000000000000000000000100000000 |                            10011
+           WaitNextFrame | 00000000000000000000001000000000 |                            10001
+               SendPixel | 00000000000000000010000000000000 |                            10000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'Oled_Display'
+WARNING: [Synth 8-327] inferring latch for variable 'sprite_x_reg' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/waynes_work.v:39]
+WARNING: [Synth 8-327] inferring latch for variable 'sprite_y_reg' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/waynes_work.v:40]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            SCREEN_START |                              000 |                              000
+    SCREEN_PLAYER_CHOICE |                              001 |                              001
+          SCREEN_PLAYER1 |                              010 |                              010
+         SCREEN_CONFIRM1 |                              011 |                              011
+          SCREEN_PLAYER2 |                              100 |                              100
+         SCREEN_CONFIRM2 |                              101 |                              101
+                    IDLE |                              110 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'screen_state_reg' using encoding 'sequential' in module 'initial_phase'
+WARNING: [Synth 8-327] inferring latch for variable 'skill_b_reg[0]' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:316]
+WARNING: [Synth 8-327] inferring latch for variable 'skill_b_reg[1]' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:316]
+WARNING: [Synth 8-327] inferring latch for variable 'skill_b_reg[2]' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:316]
+WARNING: [Synth 8-327] inferring latch for variable 'skill_b_reg[3]' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:316]
+WARNING: [Synth 8-327] inferring latch for variable 'skill_b_reg[4]' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:316]
+WARNING: [Synth 8-327] inferring latch for variable 'skill_b_enlarged_reg[0]' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:322]
+WARNING: [Synth 8-327] inferring latch for variable 'skill_b_enlarged_reg[1]' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:322]
+WARNING: [Synth 8-327] inferring latch for variable 'skill_b_enlarged_reg[2]' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:322]
+WARNING: [Synth 8-327] inferring latch for variable 'skill_b_enlarged_reg[3]' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:322]
+WARNING: [Synth 8-327] inferring latch for variable 'skill_b_enlarged_reg[4]' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:322]
+WARNING: [Synth 8-327] inferring latch for variable 'skill_b_enlarged_reg[5]' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:322]
+WARNING: [Synth 8-327] inferring latch for variable 'skill_b_enlarged_reg[6]' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/display_control.v:322]
+WARNING: [Synth 8-327] inferring latch for variable 'OriginX_reg' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/my_HP_SP_Status_Screen.v:197]
+WARNING: [Synth 8-327] inferring latch for variable 'damage_heal_width_reg' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/my_HP_SP_Status_Screen.v:195]
+WARNING: [Synth 8-327] inferring latch for variable 'color_reg' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/my_HP_SP_Status_Screen.v:196]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                S_NORMAL |                               00 |                             0000
+                 S_BLINK |                               01 |                             0001
+                  S_DONE |                               10 |                             0010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'blink_state_reg' using encoding 'sequential' in module 'hp_sp_status'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   start |                               00 |                               00
+                    game |                               01 |                               01
+                    over |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'main'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:30 . Memory (MB): peak = 859.570 ; gain = 602.113
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-----------------------+------------+----------+
+|      |RTL Partition          |Replication |Instances |
++------+-----------------------+------------+----------+
+|1     |display_control        |           2|     25717|
+|2     |player_interface__GC0  |           1|      1601|
+|3     |hp_sp_status           |           2|     23545|
+|4     |pokemon_animation__GB0 |           1|     28322|
+|5     |pokemon_animation__GB1 |           1|      5913|
+|6     |pokemon_animation__GB2 |           1|      7746|
+|7     |pokemon_animation__GB3 |           1|      9411|
+|8     |pokemon_animation__GB4 |           1|     12129|
+|9     |pokemon_animation__GB5 |           1|     16153|
+|10    |main__GC0              |           1|     25223|
++------+-----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 134   
+	   2 Input     25 Bit       Adders := 2     
+	   2 Input     17 Bit       Adders := 2     
+	   3 Input      9 Bit       Adders := 136   
+	   2 Input      9 Bit       Adders := 128   
+	   3 Input      8 Bit       Adders := 113   
+	   4 Input      8 Bit       Adders := 77    
+	   2 Input      8 Bit       Adders := 50    
+	   2 Input      7 Bit       Adders := 98    
+	   2 Input      6 Bit       Adders := 24    
+	   3 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 23    
+	   3 Input      5 Bit       Adders := 40    
+	   2 Input      4 Bit       Adders := 23    
+	   2 Input      3 Bit       Adders := 18    
+	   3 Input      3 Bit       Adders := 68    
+	   2 Input      2 Bit       Adders := 5     
+	   3 Input      2 Bit       Adders := 28    
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               40 Bit    Registers := 2     
+	               32 Bit    Registers := 4     
+	               17 Bit    Registers := 2     
+	               16 Bit    Registers := 14    
+	                8 Bit    Registers := 6     
+	                7 Bit    Registers := 2     
+	                6 Bit    Registers := 7     
+	                5 Bit    Registers := 5     
+	                4 Bit    Registers := 21    
+	                3 Bit    Registers := 4     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 80    
++---Muxes : 
+	  50 Input     96 Bit        Muxes := 1     
+	  14 Input     96 Bit        Muxes := 1     
+	   4 Input     51 Bit        Muxes := 24    
+	   2 Input     40 Bit        Muxes := 6     
+	   2 Input     32 Bit        Muxes := 6     
+	   3 Input     32 Bit        Muxes := 2     
+	  32 Input     32 Bit        Muxes := 2     
+	   2 Input     25 Bit        Muxes := 2     
+	  32 Input     20 Bit        Muxes := 2     
+	   2 Input     17 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 743   
+	  13 Input     16 Bit        Muxes := 4     
+	   8 Input     16 Bit        Muxes := 32    
+	   4 Input     16 Bit        Muxes := 13    
+	   3 Input     16 Bit        Muxes := 22    
+	   9 Input     16 Bit        Muxes := 16    
+	  15 Input     16 Bit        Muxes := 2     
+	   7 Input     16 Bit        Muxes := 3     
+	  14 Input     16 Bit        Muxes := 1     
+	  11 Input     13 Bit        Muxes := 1     
+	  12 Input     11 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 123   
+	   9 Input      8 Bit        Muxes := 16    
+	   7 Input      8 Bit        Muxes := 28    
+	   8 Input      8 Bit        Muxes := 21    
+	  10 Input      8 Bit        Muxes := 15    
+	   3 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 10    
+	   2 Input      6 Bit        Muxes := 13    
+	  22 Input      6 Bit        Muxes := 4     
+	  32 Input      6 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 484   
+	   3 Input      5 Bit        Muxes := 6     
+	   8 Input      5 Bit        Muxes := 400   
+	  32 Input      5 Bit        Muxes := 2     
+	   3 Input      4 Bit        Muxes := 14    
+	   2 Input      4 Bit        Muxes := 32    
+	   4 Input      4 Bit        Muxes := 6     
+	  16 Input      4 Bit        Muxes := 16    
+	   5 Input      4 Bit        Muxes := 1     
+	   7 Input      4 Bit        Muxes := 1     
+	  15 Input      4 Bit        Muxes := 2     
+	  22 Input      4 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 5     
+	   2 Input      3 Bit        Muxes := 83    
+	   5 Input      3 Bit        Muxes := 4     
+	   4 Input      3 Bit        Muxes := 4     
+	   8 Input      3 Bit        Muxes := 72    
+	   7 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 336   
+	  15 Input      3 Bit        Muxes := 28    
+	  18 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 27    
+	   3 Input      2 Bit        Muxes := 5     
+	   6 Input      2 Bit        Muxes := 65    
+	   7 Input      2 Bit        Muxes := 3     
+	  22 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 299   
+	   5 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 9     
+	   6 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 25    
+	   7 Input      1 Bit        Muxes := 11    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module main 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 3     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 4     
+	   3 Input     16 Bit        Muxes := 3     
+	   3 Input      8 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 5     
+	   3 Input      1 Bit        Muxes := 9     
+Module display_control 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 3     
+	   2 Input      6 Bit       Adders := 9     
+	   2 Input      5 Bit       Adders := 9     
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      3 Bit       Adders := 8     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   4 Input     51 Bit        Muxes := 12    
+	   2 Input     16 Bit        Muxes := 263   
+	  13 Input     16 Bit        Muxes := 2     
+	   8 Input     16 Bit        Muxes := 16    
+	   4 Input     16 Bit        Muxes := 6     
+	   3 Input     16 Bit        Muxes := 6     
+	   9 Input     16 Bit        Muxes := 8     
+	   2 Input      6 Bit        Muxes := 1     
+	  22 Input      6 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 18    
+	   3 Input      5 Bit        Muxes := 3     
+	   3 Input      4 Bit        Muxes := 5     
+	   2 Input      4 Bit        Muxes := 4     
+	   4 Input      4 Bit        Muxes := 2     
+	  16 Input      4 Bit        Muxes := 8     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 7     
+	   5 Input      3 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 16    
+	   2 Input      2 Bit        Muxes := 5     
+	   3 Input      2 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 4     
+	  22 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 12    
+	   5 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module bot 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      3 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+Module bot_buttons 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 6     
+	   5 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	   3 Input      4 Bit        Muxes := 1     
+	   7 Input      4 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 16    
+	   4 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 6     
+	   7 Input      1 Bit        Muxes := 1     
+Module player_interface 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 10    
+Module five_second_pulse 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module HP_AND_SKILL 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 5     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 8     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 13    
+Module rectangle_generator__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module rectangle_generator__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module rectangle_generator__3 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module rectangle_generator__4 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module rectangle_generator__5 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module rectangle_generator__6 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module rectangle_generator__7 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module rectangle_generator__8 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module rectangle_generator__9 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module rectangle_generator__10 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module rectangle_generator__11 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module rectangle_generator__12 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module rectangle_generator__13 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module rectangle_generator__14 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module rectangle_generator__15 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module rectangle_generator__16 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module rectangle_generator__17 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module rectangle_generator__18 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module rectangle_generator 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module picopixel_LUT__1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input      3 Bit        Muxes := 12    
+	  15 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 2     
+Module picopixel__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      3 Bit       Adders := 1     
+	   3 Input      2 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module picopixel_LUT__2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input      3 Bit        Muxes := 12    
+	  15 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 2     
+Module picopixel__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      3 Bit       Adders := 1     
+	   3 Input      2 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module picopixel_LUT__3 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input      3 Bit        Muxes := 12    
+	  15 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 2     
+Module picopixel__3 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      3 Bit       Adders := 1     
+	   3 Input      2 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module picopixel_LUT__4 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input      3 Bit        Muxes := 12    
+	  15 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 2     
+Module picopixel__4 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      3 Bit       Adders := 1     
+	   3 Input      2 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module picopixel_LUT__5 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input      3 Bit        Muxes := 12    
+	  15 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 2     
+Module picopixel__5 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      3 Bit       Adders := 1     
+	   3 Input      2 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module picopixel_LUT__6 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input      3 Bit        Muxes := 12    
+	  15 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 2     
+Module picopixel__6 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      3 Bit       Adders := 1     
+	   3 Input      2 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module picopixel_LUT__7 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input      3 Bit        Muxes := 12    
+	  15 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 2     
+Module picopixel__7 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      3 Bit       Adders := 1     
+	   3 Input      2 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module picopixel_LUT__8 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input      3 Bit        Muxes := 12    
+	  15 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 2     
+Module picopixel__8 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      3 Bit       Adders := 1     
+	   3 Input      2 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module picopixel_LUT__9 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input      3 Bit        Muxes := 12    
+	  15 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 2     
+Module picopixel__9 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      3 Bit       Adders := 1     
+	   3 Input      2 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module picopixel_LUT__10 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input      3 Bit        Muxes := 12    
+	  15 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 2     
+Module picopixel__10 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      3 Bit       Adders := 1     
+	   3 Input      2 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module picopixel_LUT__11 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input      3 Bit        Muxes := 12    
+	  15 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 2     
+Module picopixel__11 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      3 Bit       Adders := 1     
+	   3 Input      2 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module picopixel_LUT__12 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input      3 Bit        Muxes := 12    
+	  15 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 2     
+Module picopixel__12 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      3 Bit       Adders := 1     
+	   3 Input      2 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module picopixel_LUT__13 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input      3 Bit        Muxes := 12    
+	  15 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 2     
+Module picopixel__13 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      3 Bit       Adders := 1     
+	   3 Input      2 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module picopixel_LUT 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input      3 Bit        Muxes := 12    
+	  15 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 2     
+Module picopixel 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      3 Bit       Adders := 1     
+	   3 Input      2 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module HP_SP_Status_Screen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 2     
+	   3 Input      6 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 5     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+	   4 Input      1 Bit        Muxes := 1     
+Module Font_5X7_LUT__9 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 11    
+	   8 Input      5 Bit        Muxes := 10    
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module Font_5X7__9 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module Font_5X7_LUT__10 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 11    
+	   8 Input      5 Bit        Muxes := 10    
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module Font_5X7__10 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module Font_5X7_LUT__11 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 11    
+	   8 Input      5 Bit        Muxes := 10    
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module Font_5X7__11 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module Font_5X7_LUT__12 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 11    
+	   8 Input      5 Bit        Muxes := 10    
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module Font_5X7__12 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module Font_5X7_LUT__13 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 11    
+	   8 Input      5 Bit        Muxes := 10    
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module Font_5X7__13 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module Font_5X7_LUT__14 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 11    
+	   8 Input      5 Bit        Muxes := 10    
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module Font_5X7__14 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module Font_5X7_LUT__15 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 11    
+	   8 Input      5 Bit        Muxes := 10    
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module Font_5X7__15 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module Font_5X7_LUT__16 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 11    
+	   8 Input      5 Bit        Muxes := 10    
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module Font_5X7__16 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module Font_5X7_LUT__17 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 11    
+	   8 Input      5 Bit        Muxes := 10    
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module Font_5X7__17 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module Font_5X7_LUT__18 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 11    
+	   8 Input      5 Bit        Muxes := 10    
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module Font_5X7__18 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module Font_5X7_LUT__19 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 11    
+	   8 Input      5 Bit        Muxes := 10    
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module Font_5X7__19 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module Font_5X7_LUT 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 11    
+	   8 Input      5 Bit        Muxes := 10    
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module Font_5X7 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module Font_5X7_LUT__1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 11    
+	   8 Input      5 Bit        Muxes := 10    
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module Font_5X7__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module Font_5X7_LUT__2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 11    
+	   8 Input      5 Bit        Muxes := 10    
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module Font_5X7__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module Font_5X7_LUT__3 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 11    
+	   8 Input      5 Bit        Muxes := 10    
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module Font_5X7__3 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module Font_5X7_LUT__4 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 11    
+	   8 Input      5 Bit        Muxes := 10    
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module Font_5X7__4 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module Font_5X7_LUT__5 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 11    
+	   8 Input      5 Bit        Muxes := 10    
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module Font_5X7__5 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module Font_5X7_LUT__6 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 11    
+	   8 Input      5 Bit        Muxes := 10    
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module Font_5X7__6 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module Font_5X7_LUT__7 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 11    
+	   8 Input      5 Bit        Muxes := 10    
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module Font_5X7__7 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module Font_5X7_LUT__8 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 11    
+	   8 Input      5 Bit        Muxes := 10    
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module Font_5X7__8 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module hp_sp_status 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     25 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input     32 Bit        Muxes := 1     
+	   2 Input     25 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 2     
+	   3 Input      4 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 5     
+Module splash_screen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Muxes : 
+	  15 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	  15 Input      4 Bit        Muxes := 1     
+Module splash_screen_player1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Muxes : 
+	  15 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	  15 Input      4 Bit        Muxes := 1     
+Module pokemon_animation 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 120   
+	   2 Input      9 Bit       Adders := 119   
+	   4 Input      8 Bit       Adders := 77    
+	   2 Input      8 Bit       Adders := 47    
+	   3 Input      8 Bit       Adders := 37    
+	   2 Input      7 Bit       Adders := 5     
+	   2 Input      6 Bit       Adders := 2     
+	   3 Input      6 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
+	                7 Bit    Registers := 2     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 15    
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 17    
+	   7 Input     16 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 123   
+	   2 Input      7 Bit        Muxes := 8     
+	   2 Input      6 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 161   
+	   5 Input      1 Bit        Muxes := 1     
+Module flex_clk__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module flex_clk 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Oled_Display__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 3     
+	  32 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	  32 Input     20 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	  32 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  32 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module Oled_Display 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 3     
+	  32 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	  32 Input     20 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	  32 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  32 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module debouncer__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module debouncer__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module debouncer__3 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module debouncer__4 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module debouncer 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module pokemon_selector 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 2     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+Module start_screen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  50 Input     96 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 3     
+Module player_screen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  14 Input     96 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 10    
+	   9 Input      8 Bit        Muxes := 2     
+	   7 Input      8 Bit        Muxes := 7     
+	   8 Input      8 Bit        Muxes := 7     
+Module player1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input      9 Bit       Adders := 4     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   3 Input     16 Bit        Muxes := 3     
+	   2 Input     16 Bit        Muxes := 6     
+	   9 Input      8 Bit        Muxes := 7     
+	   7 Input      8 Bit        Muxes := 7     
+	  10 Input      8 Bit        Muxes := 7     
+	   8 Input      8 Bit        Muxes := 7     
+Module player2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input      9 Bit       Adders := 4     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   3 Input     16 Bit        Muxes := 3     
+	   2 Input     16 Bit        Muxes := 6     
+	   9 Input      8 Bit        Muxes := 7     
+	   7 Input      8 Bit        Muxes := 7     
+	  10 Input      8 Bit        Muxes := 7     
+	   8 Input      8 Bit        Muxes := 7     
+Module confirm_screen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 5     
+	   3 Input     16 Bit        Muxes := 1     
+	  11 Input     13 Bit        Muxes := 1     
+	  12 Input     11 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   7 Input      8 Bit        Muxes := 7     
+	   2 Input      5 Bit        Muxes := 1     
+Module initial_phase 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 2     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   7 Input     16 Bit        Muxes := 2     
+	  18 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 10    
+	   6 Input      2 Bit        Muxes := 1     
+	   7 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 20    
+	   4 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 10    
+Module led_control 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module flex_clk__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module seven_seg 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	  10 Input      8 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+Module end_screen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 50    
+	  14 Input     16 Bit        Muxes := 1     
+	  22 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5580] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "buttons/btnD3" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3331] design main has unconnected port JA[2]
+WARNING: [Synth 8-3331] design main has unconnected port JB[2]
+WARNING: [Synth 8-3331] design main has unconnected port sw_hp_sp
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (menui_1/\buttons/btnU_reg )
+INFO: [Synth 8-5545] ROM "state" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "skill" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "skill" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-3886] merging instance 'prev_state_reg[4]' (FDE) to 'prev_state_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\prev_state_reg[3] )
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][50]' (LD) to 'skill_b_enlarged_reg[6][32]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][49]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][48]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][47]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][46]' (LD) to 'skill_b_enlarged_reg[1][16]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][45]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][44]' (LD) to 'skill_b_enlarged_reg[1][40]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][43]' (LD) to 'skill_b_enlarged_reg[1][41]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][42]' (LD) to 'skill_b_enlarged_reg[1][18]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][41]' (LD) to 'skill_b_enlarged_reg[1][26]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][40]' (LD) to 'skill_b_enlarged_reg[3][49]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][39]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][38]' (LD) to 'skill_b_enlarged_reg[6][32]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][37]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][36]' (LD) to 'skill_b_enlarged_reg[1][10]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][35]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][34]' (LD) to 'skill_b_enlarged_reg[6][32]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][33]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][32]' (LD) to 'skill_b_enlarged_reg[6][32]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][31]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][30]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][29]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][28]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][27]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][26]' (LD) to 'skill_b_enlarged_reg[5][50]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][25]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][24]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][23]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][22]' (LD) to 'skill_b_enlarged_reg[6][32]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][21]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][20]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][19]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][18]' (LD) to 'skill_b_enlarged_reg[1][8]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][17]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][16]' (LD) to 'skill_b_enlarged_reg[1][12]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][15]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][14]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][13]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][12]' (LD) to 'skill_b_enlarged_reg[1][4]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][11]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][10]' (LD) to 'skill_b_enlarged_reg[1][6]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][9]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][8]' (LD) to 'skill_b_enlarged_reg[5][49]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][7]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][5]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][4]' (LD) to 'skill_b_enlarged_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][3]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][2]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][1]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[1][0]' (LD) to 'skill_b_enlarged_reg[5][16]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][50]' (LD) to 'skill_b_enlarged_reg[5][44]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][49]' (LD) to 'skill_b_enlarged_reg[5][47]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][48]' (LD) to 'skill_b_enlarged_reg[5][46]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][47]' (LD) to 'skill_b_enlarged_reg[5][42]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][46]' (LD) to 'skill_b_enlarged_reg[5][36]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][45]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][44]' (LD) to 'skill_b_enlarged_reg[5][40]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][43]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][42]' (LD) to 'skill_b_enlarged_reg[5][22]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][41]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][40]' (LD) to 'skill_b_enlarged_reg[5][26]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][39]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][38]' (LD) to 'skill_b_enlarged_reg[5][34]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][37]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][36]' (LD) to 'skill_b_enlarged_reg[5][10]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][35]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][33]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][32]' (LD) to 'skill_b_enlarged_reg[6][32]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][31]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][30]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][29]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][28]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][27]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][26]' (LD) to 'skill_b_enlarged_reg[5][23]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][25]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][24]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][23]' (LD) to 'skill_b_enlarged_reg[3][48]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][22]' (LD) to 'skill_b_enlarged_reg[5][20]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][21]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][20]' (LD) to 'skill_b_enlarged_reg[5][18]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][19]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][18]' (LD) to 'skill_b_enlarged_reg[5][8]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][17]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][16]' (LD) to 'skill_b_enlarged_reg[5][12]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][15]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][14]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][13]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][12]' (LD) to 'skill_b_enlarged_reg[5][4]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][11]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][10]' (LD) to 'skill_b_enlarged_reg[5][6]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][9]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][8]' (LD) to 'skill_b_enlarged_reg[3][34]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][7]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][6]' (LD) to 'skill_b_enlarged_reg[5][0]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][5]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][4]' (LD) to 'skill_b_enlarged_reg[3][46]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][3]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][2]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Synth 8-3886] merging instance 'skill_b_enlarged_reg[5][1]' (LD) to 'skill_b_enlarged_reg[6][45]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\skill_b_reg[0][39] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\skill_b_reg[0][0] )
+WARNING: [Synth 8-3332] Sequential element (prev_state_reg[3]) is unused and will be removed from module display_control.
+WARNING: [Synth 8-3332] Sequential element (skill_b_reg[0][39]) is unused and will be removed from module display_control.
+WARNING: [Synth 8-3332] Sequential element (skill_b_reg[0][0]) is unused and will be removed from module display_control.
+INFO: [Synth 8-4471] merging register 'SP_LEVEL_SPI_reg[3:0]' into 'SP_LEVEL_SPI_reg[3:0]' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/my_HP_SP_Status_Screen.v:51]
+INFO: [Synth 8-4471] merging register 'HP_LEVEL_SPI_reg[3:0]' into 'HP_LEVEL_SPI_reg[3:0]' [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/my_HP_SP_Status_Screen.v:50]
+WARNING: [Synth 8-6014] Unused sequential element SP_LEVEL_SPI_reg was removed.  [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/my_HP_SP_Status_Screen.v:51]
+WARNING: [Synth 8-6014] Unused sequential element HP_LEVEL_SPI_reg was removed.  [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/my_HP_SP_Status_Screen.v:50]
+WARNING: [Synth 8-6014] Unused sequential element hp_control/sp_increase_pulse/pulse_reg was removed.  [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/five_second_pulse.v:18]
+WARNING: [Synth 8-3331] design skillB_cooldown_screen has unconnected port basys_clk
+WARNING: [Synth 8-3331] design skillB_cooldown_screen has unconnected port x_8bit[7]
+WARNING: [Synth 8-3331] design skillB_cooldown_screen has unconnected port y_8bit[7]
+WARNING: [Synth 8-3331] design Low_Health_Status_Screen has unconnected port basys_clk
+WARNING: [Synth 8-3331] design Low_Health_Status_Screen has unconnected port x_8bit[7]
+WARNING: [Synth 8-3331] design Low_Health_Status_Screen has unconnected port y_8bit[7]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port done
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port x_8bit[7]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port y_8bit[7]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port btnU
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port btnD
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port btnC
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port btnR
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port btnL
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port data_out[7]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port data_out[6]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port data_out[5]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port data_out[4]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port data_out[3]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port data_out[2]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port data_out[1]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port data_out[0]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port HP_Level[7]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port HP_Level[6]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port HP_Level[5]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port HP_Level[4]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port SP_Level[7]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port SP_Level[6]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port SP_Level[5]
+WARNING: [Synth 8-3331] design HP_SP_Status_Screen has unconnected port SP_Level[4]
+WARNING: [Synth 8-3331] design hp_sp_status has unconnected port skill_B_available
+WARNING: [Synth 8-3331] design hp_sp_status has unconnected port opp_end_game
+WARNING: [Synth 8-3331] design hp_sp_status has unconnected port opp_skill_B_available
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (my_HP_SP_Status_Screen/\color_reg[4] )
+WARNING: [Synth 8-3332] Sequential element (OriginX_reg[15]) is unused and will be removed from module HP_SP_Status_Screen.
+WARNING: [Synth 8-3332] Sequential element (OriginX_reg[14]) is unused and will be removed from module HP_SP_Status_Screen.
+WARNING: [Synth 8-3332] Sequential element (OriginX_reg[13]) is unused and will be removed from module HP_SP_Status_Screen.
+WARNING: [Synth 8-3332] Sequential element (OriginX_reg[12]) is unused and will be removed from module HP_SP_Status_Screen.
+WARNING: [Synth 8-3332] Sequential element (OriginX_reg[11]) is unused and will be removed from module HP_SP_Status_Screen.
+WARNING: [Synth 8-3332] Sequential element (OriginX_reg[10]) is unused and will be removed from module HP_SP_Status_Screen.
+WARNING: [Synth 8-3332] Sequential element (OriginX_reg[9]) is unused and will be removed from module HP_SP_Status_Screen.
+WARNING: [Synth 8-3332] Sequential element (OriginX_reg[8]) is unused and will be removed from module HP_SP_Status_Screen.
+WARNING: [Synth 8-3332] Sequential element (OriginX_reg[7]) is unused and will be removed from module HP_SP_Status_Screen.
+WARNING: [Synth 8-3332] Sequential element (color_reg[4]) is unused and will be removed from module HP_SP_Status_Screen.
+WARNING: [Synth 8-6014] Unused sequential element clk2/slow_clk_reg was removed.  [C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.srcs/sources_1/new/flex_clk.v:31]
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "led1/step_counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "led1/led" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3331] design confirm_screen has unconnected port btnState[1]
+WARNING: [Synth 8-3331] design confirm_screen has unconnected port btnState[0]
+WARNING: [Synth 8-3331] design player_screen has unconnected port btnU_in
+WARNING: [Synth 8-3331] design player_screen has unconnected port btnC_in
+WARNING: [Synth 8-3331] design player_screen has unconnected port btnD_in
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (seg1/\seg_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (seg_reg[7]) is unused and will be removed from module seven_seg.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:01:52 . Memory (MB): peak = 859.570 ; gain = 602.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-----------------+------------+---------------+----------------+
+|Module Name      | RTL Object | Depth x Width | Implemented As | 
++-----------------+------------+---------------+----------------+
+|bulbasaur_small  | color      | 1024x16       | LUT            | 
+|squirtle_small   | color      | 1024x16       | LUT            | 
+|charmander_small | color      | 1024x16       | LUT            | 
+|squirtle_big     | color      | 4096x16       | LUT            | 
+|charmander_big   | color      | 4096x16       | LUT            | 
+|bulbasaur_big    | color      | 4096x16       | LUT            | 
++-----------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-----------------------+------------+----------+
+|      |RTL Partition          |Replication |Instances |
++------+-----------------------+------------+----------+
+|1     |display_control        |           2|      3645|
+|2     |player_interface__GC0  |           1|       408|
+|3     |hp_sp_status           |           2|      3172|
+|4     |pokemon_animation__GB0 |           1|     13184|
+|5     |pokemon_animation__GB1 |           1|      3850|
+|6     |pokemon_animation__GB2 |           1|      4334|
+|7     |pokemon_animation__GB3 |           1|      5520|
+|8     |pokemon_animation__GB4 |           1|      6991|
+|9     |pokemon_animation__GB5 |           1|      8635|
+|10    |main__GC0              |           1|      7593|
++------+-----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:01:59 . Memory (MB): peak = 859.570 ; gain = 602.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+info: optimization accepted worst group hill climbing move (-12305.0/ToG.UNL 11.0ps)
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:57 ; elapsed = 00:02:59 . Memory (MB): peak = 1147.750 ; gain = 890.293
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-----------------------+------------+----------+
+|      |RTL Partition          |Replication |Instances |
++------+-----------------------+------------+----------+
+|1     |display_control        |           1|      3644|
+|2     |player_interface__GC0  |           1|       379|
+|3     |hp_sp_status           |           1|      3172|
+|4     |pokemon_animation__GB3 |           1|      5520|
+|5     |pokemon_animation__GB5 |           1|      8635|
+|6     |main__GC0              |           1|      7502|
+|7     |hp_sp_status__1        |           1|      3144|
+|8     |display_control__1     |           1|      3645|
+|9     |main_GT0               |           1|     25533|
++------+-----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:59 ; elapsed = 00:03:14 . Memory (MB): peak = 1147.750 ; gain = 890.293
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-----------------------+------------+----------+
+|      |RTL Partition          |Replication |Instances |
++------+-----------------------+------------+----------+
+|1     |display_control        |           1|      1156|
+|2     |player_interface__GC0  |           1|       155|
+|3     |hp_sp_status           |           1|      1628|
+|4     |pokemon_animation__GB3 |           1|      2457|
+|5     |pokemon_animation__GB5 |           1|      3711|
+|6     |main__GC0              |           1|      3440|
+|7     |hp_sp_status__1        |           1|      1597|
+|8     |display_control__1     |           1|      1157|
+|9     |main_GT0               |           1|     14505|
++------+-----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:01 ; elapsed = 00:03:19 . Memory (MB): peak = 1147.750 ; gain = 890.293
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:01 ; elapsed = 00:03:19 . Memory (MB): peak = 1147.750 ; gain = 890.293
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:01 ; elapsed = 00:03:21 . Memory (MB): peak = 1147.750 ; gain = 890.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:01 ; elapsed = 00:03:21 . Memory (MB): peak = 1147.750 ; gain = 890.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:01 ; elapsed = 00:03:21 . Memory (MB): peak = 1147.750 ; gain = 890.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:01 ; elapsed = 00:03:21 . Memory (MB): peak = 1147.750 ; gain = 890.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |  3310|
+|3     |LUT1   |  1748|
+|4     |LUT2   |  5198|
+|5     |LUT3   |  2871|
+|6     |LUT4   |  3537|
+|7     |LUT5   |  2777|
+|8     |LUT6   |  7761|
+|9     |MUXF7  |  1441|
+|10    |MUXF8  |   521|
+|11    |FDE_1  |    64|
+|12    |FDRE   |  1219|
+|13    |FDSE   |    32|
+|14    |LD     |    80|
+|15    |LDC    |     2|
+|16    |LDP    |     2|
+|17    |IBUF   |     7|
+|18    |OBUF   |    42|
+|19    |OBUFT  |     2|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------------------------+----------------------+------+
+|      |Instance                   |Module                |Cells |
++------+---------------------------+----------------------+------+
+|1     |top                        |                      | 30616|
+|2     |  nolabel_line177          |end_screen            |    53|
+|3     |  clk1                     |flex_clk              |    51|
+|4     |  d1                       |debouncer             |    39|
+|5     |  d2                       |debouncer_0           |    45|
+|6     |  d3                       |debouncer_1           |    37|
+|7     |  d4                       |debouncer_2           |    36|
+|8     |  d5                       |debouncer_3           |    37|
+|9     |  init                     |initial_phase         |  1576|
+|10    |    confirm_inst           |confirm_screen        |    47|
+|11    |    player1_inst           |player1               |    47|
+|12    |    player2_inst           |player2               |    24|
+|13    |    player_choice_display  |player_screen         |    46|
+|14    |    poki_selector          |pokemon_selector      |  1244|
+|15    |    screen_display         |start_screen          |    42|
+|16    |  led1                     |led_control           |   116|
+|17    |  menu                     |player_interface      |   889|
+|18    |    buttons                |bot_buttons           |    81|
+|19    |    p2                     |bot                   |    18|
+|20    |    player1                |display_control       |   339|
+|21    |    player2                |display_control_9     |   423|
+|22    |  oled1                    |Oled_Display          |  1431|
+|23    |  oled2                    |Oled_Display_4        |  4075|
+|24    |  player1                  |hp_sp_status          |   396|
+|25    |    hp_control             |HP_AND_SKILL_7        |    68|
+|26    |    my_HP_SP_Status_Screen |HP_SP_Status_Screen_8 |   254|
+|27    |  player1_ani              |pokemon_animation     | 17369|
+|28    |    nolabel_line31         |splash_screen         |    18|
+|29    |    nolabel_line35         |splash_screen_player1 |    11|
+|30    |  player2                  |hp_sp_status_5        |   380|
+|31    |    hp_control             |HP_AND_SKILL          |    87|
+|32    |    my_HP_SP_Status_Screen |HP_SP_Status_Screen   |   243|
+|33    |  seg1                     |seven_seg             |    75|
+|34    |    clk1                   |flex_clk_6            |    52|
++------+---------------------------+----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:01 ; elapsed = 00:03:21 . Memory (MB): peak = 1147.750 ; gain = 890.293
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 76 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:56 ; elapsed = 00:03:10 . Memory (MB): peak = 1147.750 ; gain = 528.742
+Synthesis Optimization Complete : Time (s): cpu = 00:01:01 ; elapsed = 00:03:22 . Memory (MB): peak = 1147.750 ; gain = 890.293
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 5427 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 42 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 148 instances were transformed.
+  FDE_1 => FDRE (inverted pins: C): 64 instances
+  LD => LDCE: 38 instances
+  LD => LDCE (inverted pins: G): 42 instances
+  LDC => LDCE: 2 instances
+  LDP => LDPE: 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+471 Infos, 205 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:03 ; elapsed = 00:03:28 . Memory (MB): peak = 1147.750 ; gain = 903.359
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Trijal/Desktop/integrated_single_boardvfinal.xpr/integrated_single_board/integrated_single_board.runs/synth_1/main.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file main_utilization_synth.rpt -pb main_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.107 . Memory (MB): peak = 1147.750 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 14 03:00:39 2025...
